@@ -2,5 +2,5 @@
     <h2>{{ task.title }}</h2>
     <p>{{ task.date }}</p>
     <p *ngIf="task.description.length > 0">{{ task.description }}</p>
-    <fa-icon class="deleteTask" [icon]="faTimes"></fa-icon>
+    <fa-icon (click)="deleteTaskEmitter(task)" class="deleteTask" [icon]="faTimes"></fa-icon>
 </div>
