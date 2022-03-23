@@ -7,3 +7,12 @@ html {
 body {
     margin: 0;
 }
+
+li {
+    list-style: none;
+}
+
+.task {
+    background-color: rgb(180, 180, 180);
+    padding: 6px;
+}
