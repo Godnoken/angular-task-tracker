@@ -24,6 +24,13 @@ export class TasksComponent implements OnInit {
       .subscribe(tasks => this.tasks = tasks);
   }
 
+  addTask(task: Task): void {
+    this.taskService.addTask(task)
+      .subscribe(
+        task => this.tasks.push(task)
+      )
+  }
+
   deleteTask(task: Task): void {
     this.taskService.deleteTask(task)
       .subscribe(

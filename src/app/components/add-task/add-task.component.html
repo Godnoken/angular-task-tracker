@@ -1,1 +1,15 @@
-<p>add-task works!</p>
+<form (ngSubmit)="onSubmit()">
+    <div>
+        <label for="text">Title</label>
+        <input [(ngModel)]="title" type="text" name="title" id="title" placeholder="Title">
+    </div>
+    <div>
+        <label for="date">Date</label>
+        <input [(ngModel)]="date" type="text" name="date" id="date" placeholder="Date/time">
+    </div>
+    <div>
+        <label for="description">Title</label>
+        <textarea [(ngModel)]="description" name="description" id="description" placeholder="Description of task"></textarea>
+    </div>
+    <input type="submit" value="Save Task">
+</form>
