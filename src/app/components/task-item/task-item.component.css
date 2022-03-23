@@ -1,0 +1,13 @@
+.task {
+    position: relative;
+    background-color: rgb(180, 180, 180);
+    padding: 6px;
+}
+
+.deleteTask {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    cursor: pointer;
+    color: rgb(255, 60, 60);
+}
