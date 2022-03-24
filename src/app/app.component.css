@@ -1,4 +1,4 @@
-.app-container {
+:host {
     position: absolute;
     top: 0.5px;
     bottom: 0.5px;
@@ -8,23 +8,4 @@
     display: grid;
     grid-template-rows: 10vh 80vh 10vh;
     background-color: rgb(233, 233, 233);
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(216, 216, 216);
-}
-
-.tasks-container {
-    display: flex;
-    justify-content: center;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(216, 216, 216);
 }

@@ -1,0 +1,32 @@
+:host {
+    display: none;
+}
+
+form {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div {
+    width: 80%;
+    display: flex;
+    column-gap: 3vw;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    max-height: 50vh;
+    min-height: 6vh;
+    resize: vertical;
+}
+
+.submit-button {
+    width: 50%;
+}

@@ -1,0 +1,12 @@
+:host {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+    background-color: rgb(216, 216, 216);
+}
+
+.add-task-button {
+    width: 10vw;
+    height: 4vh;
+}

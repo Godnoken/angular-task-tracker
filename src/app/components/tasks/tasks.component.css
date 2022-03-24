@@ -1,3 +1,9 @@
+:host {
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
 .tasks {
     display: flex;
     flex-direction: column;
