@@ -26,3 +26,14 @@ button {
     height: 4vh;
     cursor: pointer;
 }
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    max-height: 50vh;
+    min-height: 6vh;
+    resize: vertical;
+}
