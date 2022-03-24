@@ -1,4 +1,5 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -9,7 +10,8 @@ export class HeaderComponent implements OnInit {
   title = "TaskTracks";
 
   constructor(
-    private renderer: Renderer2
+    private renderer: Renderer2,
+    public router: Router
   ) { }
 
   ngOnInit(): void {

@@ -1,2 +1,2 @@
 <h1>{{ title }}</h1>
-<button type="button" class="add-task-button" (click)="handleAddTaskVisibility()">Add</button>
+<button type="button" class="add-task-button" *ngIf="router.url === '/'" (click)="handleAddTaskVisibility()">Add</button>
