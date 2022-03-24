@@ -24,8 +24,17 @@ export class TaskService {
     return this.http.get<Task[]>(this.apiUrl);
   }
 
+  getTask(id: number): Observable<Task> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.get<Task>(url);
+  }
+
   addTask(task: Task): Observable<Task> {
     return this.http.post<Task>(this.apiUrl, task, httpOptions);
+  }
+
+  updateTask(task: Task): Observable<Task> {
+    return this.http.put<Task>(`${this.apiUrl}/${task.id}`, task, httpOptions);
   }
 
   deleteTask(task: Task): Observable<Task> {

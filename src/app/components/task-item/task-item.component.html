@@ -2,5 +2,8 @@
     <h2>{{ task.title }}</h2>
     <p>{{ task.date }}</p>
     <p *ngIf="task.description !== undefined">{{ task.description }}</p>
-    <fa-icon (click)="deleteTaskEmitter(task)" class="deleteTask" [icon]="faTimes"></fa-icon>
+    <div class="task-card-buttons">
+        <a routerLink="/edit/{{task.id}}"><fa-icon class="edit-task" [icon]="faEdit"></fa-icon></a>
+        <fa-icon (click)="deleteTaskEmitter(task)" class="delete-task" [icon]="faTimes"></fa-icon>
+    </div>
 </div>
