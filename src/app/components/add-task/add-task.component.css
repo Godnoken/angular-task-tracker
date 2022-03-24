@@ -31,4 +31,5 @@ textarea {
 
 .submit-button {
     width: 50%;
+    cursor: pointer;
 }

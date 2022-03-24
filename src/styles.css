@@ -11,3 +11,18 @@ body {
 ::-webkit-scrollbar {
     width: 0;
 }
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    width: 14vw;
+    height: 4vh;
+    cursor: pointer;
+}
