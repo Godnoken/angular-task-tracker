@@ -9,6 +9,7 @@ form {
     align-items: center;
     justify-content: space-evenly;
     row-gap: 2vh;
+    color: white;
 }
 
 div {

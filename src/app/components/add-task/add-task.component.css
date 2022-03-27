@@ -10,6 +10,7 @@ form {
     justify-content: space-evenly;
     row-gap: 2vh;
     margin: 3vh auto 0 auto;
+    color: white;
 }
 
 div {
@@ -20,5 +21,10 @@ div {
 
 .submit-button {
     width: 50%;
+    height: 4vh;
     cursor: pointer;
+    background-color: var(--button-color);
+    box-shadow: var(--button-shadow);
+    border: none;
+    color: white;
 }

@@ -1,9 +1,11 @@
 .task {
     position: relative;
     height: 100%;
-    background-color: rgb(180, 180, 180);
+    background-color: var(--accent);
+    color: white;
     padding: 6px 18px;
     word-break: break-all;
+    box-shadow: var(--card-shadow);
 }
 
 .task-card-buttons {
@@ -22,7 +24,16 @@
     cursor: pointer;
 }
 
+.delete-task:hover {
+    opacity: 0.6;
+}
+
 .edit-task {
     color: rgb(88, 255, 82);
     cursor: pointer;
 }
+
+.edit-task:hover {
+    opacity: 0.6;
+}
+
